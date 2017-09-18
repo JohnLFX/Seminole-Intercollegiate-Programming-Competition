@@ -1,7 +1,6 @@
 package year2014;
 
 import java.util.Scanner;
-import java.util.stream.IntStream;
 
 /**
  * <h3>Digital Root</h3>
@@ -37,10 +36,23 @@ public class DigitalRoot {
         if (input < 0)
             throw new IllegalArgumentException("Input must be positive");
 
-        char[] chars = String.valueOf(input).toCharArray();
+        int sum = 0;
+
+        while (input > 0) {
+
+            sum += input % 10;
+            input /= 10;
+
+        }
+
+        return sum;
+
+        //String approach method
+
+        /*char[] chars = String.valueOf(input).toCharArray();
 
         return IntStream.range(0, chars.length)
-                .map(i -> Character.getNumericValue(chars[i])).sum();
+                .map(i -> Character.getNumericValue(chars[i])).sum();*/
     }
 
 }
