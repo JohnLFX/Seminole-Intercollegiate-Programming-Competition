@@ -3,7 +3,7 @@ package year2011;
 import java.util.Scanner;
 
 /**
- * <h3>Binary Adder</h3></h3>
+ * <h3>Binary Adder</h3>
  * <p>Create an application that accepts a binary number and a decimal number as input.
  * Add these numbers. Display the sum as a binary number.</p>
  *
