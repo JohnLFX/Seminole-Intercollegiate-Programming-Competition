@@ -19,7 +19,10 @@ public class Palindrome {
 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Lower Bound: ");
         int x = scanner.nextInt();
+
+        System.out.println("Upper Bound: ");
         int y = scanner.nextInt();
 
         scanner.close();
@@ -36,7 +39,7 @@ public class Palindrome {
 
         }
 
-        System.out.println(count);
+        System.out.println("The number of palindromes is " + count);
 
     }
 
