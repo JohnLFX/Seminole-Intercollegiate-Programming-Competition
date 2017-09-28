@@ -3,13 +3,11 @@ package year2011;
 import java.util.Scanner;
 
 /**
- * <h3>Seminole-Intercollegiate-Programming-Competition Assignment ???</h3>
- * <p>"I pledge my Honor that I have not cheated,
- * and will not cheat, on this assignment" -<em>John Cameron</em></p>
- * <p>
- * <p>This program...</p>
+ * <h3>Array Diagonals</h3>
+ * <p></p>
  *
- * @author John Cameron (jcameron2)
+ * @author John Cameron
+ * @see <a href="https://www.seminolestate.edu/computers/competition/samples/2011">Problem Descrption and Requirements</a>
  */
 public class ArrayDiagonals {
 
