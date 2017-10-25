@@ -2,6 +2,7 @@ package year2011;
 
 import java.util.Scanner;
 
+//TODO Complete code, simplify it
 /**
  * <h3>Array Diagonals</h3>
  * <p></p>
@@ -122,7 +123,7 @@ public class ArrayDiagonals {
     }
 
     private static int rightDiagSum(int[][] dataGrid, int xCoordinate, int yCoordinate) {
-
+        return 0;
     }
 
 }
