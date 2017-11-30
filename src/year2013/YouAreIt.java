@@ -32,30 +32,8 @@ public class YouAreIt {
 
         scanner.close();
 
-        int kidsInGroup = kidsAmount;//Subtract one to consider the leader
+        //TODO Everything
 
-        int index = 0;
-        int kidsOut = 0;
-
-        while (kidsInGroup > 0) {
-
-            index += wordsPerSong;
-
-            if (index > kidsInGroup)
-                index = index % kidsInGroup;
-
-            System.out.print(index + " ");
-
-            kidsInGroup--;
-
-            //kids = new boolean[kidsAmount - ++kidsOut];
-
-            kidsOut++;
-
-        }
-
-
-        System.out.println();
 
     }
 
